@@ -1,3 +1,5 @@
 from hwpkg import hello
 
-hello.hello_world()
+
+if __name__ == '__main__':
+    hello.hello_world()
