@@ -6,6 +6,10 @@ This is a simple example of deploying an application using a virtual environment
 
 ### Remote
 
+Connect to the remote system:
+```
+ssh -i mykey.pem myusername@mydomain.example
+```
 Check pip installation:
 ```
 $ pip -V
